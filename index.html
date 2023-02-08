@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://static.vecteezy.com/system/resources/previews/011/125/368/original/cute-calculator-icon-png.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <div class="calc-box">
+        <div class="calc-top">
+            <div id="calc-screen-html"></div>
+        </div>
+        <div class="calc-bttm">
+            <div class="bttm-1">
+                <button  value="7">7</button>
+                <button onclick="btnclicked(value)" value="8">8</button>
+                <button onclick="btnclicked()" value="9">9</button>
+                <button onclick="btnclicked()" value="/">÷</button>
+            </div>
+            <div class="bttm-2">
+                <button onclick="btnclicked()" value="4">4</button>
+                <button onclick="btnclicked()" value="5">5</button>
+                <button onclick="btnclicked()" value="6">6</button>
+                <button onclick="btnclicked()" value="x">x</button>
+            </div>
+            <div class="bttm-3">
+                <button onclick="btnclicked()" value="1">1</button>
+                <button onclick="btnclicked()" value="2">2</button>
+                <button onclick="btnclicked()" value="3">3</button>
+                <button onclick="btnclicked()" value="-">-</button>
+            </div>
+            <div class="bttm-4">
+                <button onclick="btnclicked()" value=".">.</button>
+                <button onclick="btnclicked()" value="0">0</button>
+                <button onclick="btnclicked()" value="+">+</button>
+                <button onclick="btnclicked()" value="=">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+</html>
